@@ -1,6 +1,6 @@
 [user]
- name = Jerry Nummi
-  email = jerry@theedgecase.com
+ name = Jessica Suttles
+  email = jlsuttles@gmail.com
 [color]
   branch = auto
   diff = auto
@@ -31,4 +31,4 @@
   
 unpushed = cherry -v origin
 ch = cherry -v origin
-mine = log --author=Jerry
+mine = log --author=Jessica
