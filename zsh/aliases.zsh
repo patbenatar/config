@@ -3,7 +3,6 @@ alias ::='cd ../..'
 alias :::='cd ../../..'
 
 alias c='clear'
-alias conkeror="open /Applications/conkeror.mozdev.org/conkeror.app"
 alias cpwd="pwd | ruby -pe'\$_.chomp!' | pbcopy"
 
 alias diff='git diff'
@@ -34,18 +33,3 @@ alias sp='./script/spec -cfs'
 alias ss='./script/server'
 alias st='clear; git status'
 alias sudo='nocorrect sudo'
-
-
-# shortcuts
-alias webserver='cd /Library/WebServer/Documents'
-
-# personal
-alias myconfig='cd ~/Projects/config'
-alias paperactive='cd ~/Projects/paperactive'
-
-# edgecase
-alias diplomas='cd ~/Projects/edgecase/clients/diplomas';
-alias scripsafe='cd ~/Projects/edgecase/clients/scripsafe'
-alias sideshooter='cd ~/Projects/edgecase/sideshooter'
-alias streamdeploy='cd ~/Projects/edgecase/clients/streamdeploy'
-alias transcripts='cd ~/Projects/edgecase/clients/transcripts'
