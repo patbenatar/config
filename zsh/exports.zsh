@@ -21,3 +21,5 @@ export TERM=xterm-color
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
 export CDPATH=$CDPATH:~/Projects:~/Projects/edgecase:~/Projects/edgecase/clients:~/Projects/relevance
+
+export ARCHFLAGS='-arch x86_64'
