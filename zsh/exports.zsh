@@ -12,7 +12,6 @@ if [[ -z $DISPLAY && -z $SSH_CONNECTION && -o interactive ]]; then
 fi
 # END: Set the DISPLAY
 
-export PATH="/opt/local/lib/postgresql83/bin:/opt/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/sw/bin:/usr/local/bin:/usr/local/mysql/bin"
 export EVENT_NOKQUEUE=1 # for memcache
 
 export EDITOR=vim
@@ -20,6 +19,8 @@ export EDITOR=vim
 export TERM=xterm-color
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
-export CDPATH=$CDPATH:~/Projects:~/Projects/edgecase:~/Projects/edgecase/clients:~/Projects/relevance
-
 export ARCHFLAGS='-arch x86_64'
+
+export PATH="$PATH:/Users/jessicasuttles/.gem/ruby/1.8/bin"
+
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
