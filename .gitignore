@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 .DS_Store
+=======
+zsh/command_history
+vim/.netrwhist
+>>>>>>> 17f15f93f90d4c06553f5c32a7c8d6bbfc700974

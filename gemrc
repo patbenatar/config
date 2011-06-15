@@ -1,4 +1,5 @@
 --- 
+<<<<<<< HEAD
 :benchmark: false
 :verbose: true
 :update_sources: true
@@ -7,5 +8,14 @@ gem: --no-ri --no-rdoc
 - http://gemcutter.org
 - http://gems.rubyforge.org/
 - http://gems.github.com/
+=======
+gem: --no-ri --no-rdoc
+:verbose: true
+:benchmark: false
+:sources: 
+- http://gems.rubyforge.org/
+- http://gems.github.com
+:update_sources: true
+>>>>>>> 17f15f93f90d4c06553f5c32a7c8d6bbfc700974
 :backtrace: false
 :bulk_threshold: 1000
