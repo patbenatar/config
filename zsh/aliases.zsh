@@ -33,3 +33,5 @@ alias sp='./script/spec -cfs'
 alias ss='./script/server'
 alias st='clear; git status'
 alias sudo='nocorrect sudo'
+
+alias startredis='redis-server > /Users/patbenatar/redis.log &'

@@ -14,7 +14,7 @@ for color in RED GREEN YELLOW BLUE MAGENTA CYAN WHITE; do
 done
 PR_NO_COLOUR="%{$terminfo[sgr0]%}"
 
-if [[ -s /Users/jlsuttles/.rvm/scripts/rvm ]] ; then source /Users/jlsuttles/.rvm/scripts/rvm ; fi
+[[ -s "/Users/patbenatar/.rvm/scripts/rvm" ]] && . "/Users/patbenatar/.rvm/scripts/rvm"
 
 source ~/.zsh/functions.zsh
 source ~/.zsh/options.zsh

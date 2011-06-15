@@ -21,6 +21,6 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 
 export ARCHFLAGS='-arch x86_64'
 
-export PATH="$PATH:/Users/jessicasuttles/.gem/ruby/1.8/bin"
-
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+
+[[ -s "/Users/patbenatar/.rvm/scripts/rvm" ]] && . "/Users/patbenatar/.rvm/scripts/rvm"

@@ -1,6 +1,6 @@
 [user]
- name = Jessica Suttles
-  email = jlsuttles@gmail.com
+	email = nick@curiousminds.com
+	name = Nick Giancola
 [color]
   branch = auto
   diff = auto
@@ -22,6 +22,7 @@
   tool = opendiff
 [core]
   legacyheaders = false
+  excludesfile = /Users/patbenatar/.gitignore
 [repack]
   usedeltabaseoffset = true
 [alias]
@@ -31,4 +32,4 @@
   
 unpushed = cherry -v origin
 ch = cherry -v origin
-mine = log --author=Jessica
+mine = log --author=Nick
